@@ -3,11 +3,44 @@
 /* Set custom variables here */
 
 
+:root {
+
+
+
+--dd-green: #2e483a;
+--dd-green-rgb: 46, 72, 58;
+
+--dd-light: #f6f3ed;
+--dd-light-rgb: 246, 243, 237;
+
+
+--bs-dark: var(--dd-green);
+--bs-dark-rgb: var(--dd-green-rgb);
+
+--bs-primary: var(--dd-green);
+--bs-primary-rgb: var(--dd-green-rgb);
+
+
+
+--bs-body-bg-color: var(--dd-light);
+
+
+}
+
+.btn-primary {
+ --bs-btn-bg: var(--dd-green);
+ --bs-btn-border-color: var(--bs-primary);
+}
+
+
+
+
 
 
 
 .navbar-brand {
   color: #F6F3ED;
+  width: 40px;
 }
 
 body {
@@ -31,8 +64,13 @@ h1, h2, h3 {
   height: 800px;
 }
 
+
+
+
+
+
 #cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
+  background: linear-gradient(rgba(52, 50, 50, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
